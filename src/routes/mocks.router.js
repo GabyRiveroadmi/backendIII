@@ -1,20 +1,15 @@
-import { Router} from 'express';
-import generarUsuarios from "../utils/util.js";
+import { Router } from "express";
+
+const router = Router(); 
+ 
+import mocksController from "../controllers/mocks.controller.js";
+
+router.get("/mockingpets", mocksController.getMockingPets); 
 
 
-const router = Router();
+router.get("/mockingusers", mocksController.getMockingUsers); 
 
-router.get("/mockingusers", (req, res) => {
-    const usuarios = generarUsuarios(50);  // Genera 50 usuarios
-    res.json(usuarios);
-});
+ 
+router.post("/generatedata", mocksController.generateData); 
 
-// Aquí deberías agregar el endpoint para /mockingpets si tienes el código
-router.get("/mockingpets", (req, res) => {
-    // Código para mockingpets
-    res.json({ message: "Mocking pets endpoint" });
-});
-
-
-
-export default router;
+export default router; 
