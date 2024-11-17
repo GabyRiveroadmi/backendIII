@@ -1,0 +1,163 @@
+[
+    {
+      "first_name": "Martín",
+      "last_name": "Gómez",
+      "email": "martin.gomez@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Lucía",
+      "last_name": "Fernández",
+      "email": "lucia.fernandez@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Joaquín",
+      "last_name": "Rodríguez",
+      "email": "joaquin.rodriguez@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Sofía",
+      "last_name": "Martínez",
+      "email": "sofia.martinez@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Facundo",
+      "last_name": "López",
+      "email": "facundo.lopez@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Valentina",
+      "last_name": "Pérez",
+      "email": "valentina.perez@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Matías",
+      "last_name": "González",
+      "email": "matias.gonzalez@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Camila",
+      "last_name": "Díaz",
+      "email": "camila.diaz@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Santiago",
+      "last_name": "Romero",
+      "email": "santiago.romero@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Agustina",
+      "last_name": "Torres",
+      "email": "agustina.torres@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Tomás",
+      "last_name": "Ruiz",
+      "email": "tomas.ruiz@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Victoria",
+      "last_name": "Silva",
+      "email": "victoria.silva@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Nicolás",
+      "last_name": "Ramírez",
+      "email": "nicolas.ramirez@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Melina",
+      "last_name": "Ortiz",
+      "email": "melina.ortiz@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Emiliano",
+      "last_name": "Méndez",
+      "email": "emiliano.mendez@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Carolina",
+      "last_name": "Blanco",
+      "email": "carolina.blanco@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Fernando",
+      "last_name": "Morales",
+      "email": "fernando.morales@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Juliana",
+      "last_name": "Castro",
+      "email": "juliana.castro@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "Pablo",
+      "last_name": "Acosta",
+      "email": "pablo.acosta@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    },
+    {
+      "first_name": "María",
+      "last_name": "Benítez",
+      "email": "maria.benitez@example.com",
+      "password": "$2b$10$eXAmPlEPAsSwORdHaSh12345",
+      "role": "user",
+      "pets": []
+    }
+  ]
+  
