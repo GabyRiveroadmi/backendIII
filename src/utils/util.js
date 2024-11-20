@@ -8,7 +8,7 @@ const generarUsuarios = (numUsuarios = 1) => {
         usuarios.push({
             password: bcrypt.hashSync("coder123", 10), 
             role: faker.helpers.arrayElement(["user", "admin"]), 
-            pets: [] /
+            pets: [] 
         });
     }
 
