@@ -14,7 +14,7 @@ import swaggerUiExpress from "swagger-ui-express";
 const app = express();
 const PORT = process.env.PORT||8080;
 mongoose.set('strictQuery', false);
-const connection = mongoose.connect(`mongodb+srv://gabyriveroadmi1:Coder1234@cluster0.rrpbegd.mongodb.net/backendIII?retryWrites=true&w=majority&appName=Cluster0`)
+const connection = mongoose.connect(process.env.MONGO_URL)
 
 app.use(express.json());
 app.use(cookieParser());
