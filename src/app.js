@@ -9,15 +9,12 @@ import sessionsRouter from './routes/sessions.router.js';
 import mocksRouter from './routes/mocks.router.js'
 import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUiExpress from "swagger-ui-express";
-import dotenv from 'dotenv';
 
 
-
-dotenv.config();
 const app = express();
 const PORT = process.env.PORT||8080;
 mongoose.set('strictQuery', false);
-mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+const connection = mongoose.connect(process.env.MONGO_URL)
   .then(() => {
     console.log('Conectado a la base de datos MongoDB');
   })
