@@ -1,0 +1,155 @@
+[
+    {
+      "name": "Max",
+      "specie": "perro",
+      "birthDate": "2022-03-15",
+      "adopted": true,
+      "owner": "62fdba7b89b09c6efb53d72a",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Bella",
+      "specie": "perro",
+      "birthDate": "2020-06-11",
+      "adopted": false,
+      "owner": "62fdba7b89b09c6efb53d72b",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Luna",
+      "specie": "perro",
+      "birthDate": "2021-08-09",
+      "adopted": true,
+      "owner": "62fdba7b89b09c6efb53d72c",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Charlie",
+      "specie": "perro",
+      "birthDate": "2020-01-21",
+      "adopted": false,
+      "owner": "62fdba7b89b09c6efb53d72d",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Rocky",
+      "specie": "perro",
+      "birthDate": "2019-12-14",
+      "adopted": true,
+      "owner": "62fdba7b89b09c6efb53d72e",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Sadie",
+      "specie": "perro",
+      "birthDate": "2023-05-30",
+      "adopted": true,
+      "owner": "62fdba7b89b09c6efb53d72f",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Milo",
+      "specie": "perro",
+      "birthDate": "2022-10-05",
+      "adopted": false,
+      "owner": "62fdba7b89b09c6efb53d730",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Rex",
+      "specie": "perro",
+      "birthDate": "2021-11-02",
+      "adopted": true,
+      "owner": "62fdba7b89b09c6efb53d731",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Zoe",
+      "specie": "perro",
+      "birthDate": "2018-04-22",
+      "adopted": false,
+      "owner": "62fdba7b89b09c6efb53d732",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Jack",
+      "specie": "perro",
+      "birthDate": "2020-09-18",
+      "adopted": true,
+      "owner": "62fdba7b89b09c6efb53d733",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Coco",
+      "specie": "perro",
+      "birthDate": "2021-07-30",
+      "adopted": true,
+      "owner": "62fdba7b89b09c6efb53d734",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Toby",
+      "specie": "perro",
+      "birthDate": "2022-03-12",
+      "adopted": false,
+      "owner": "62fdba7b89b09c6efb53d735",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Daisy",
+      "specie": "perro",
+      "birthDate": "2023-01-29",
+      "adopted": true,
+      "owner": "62fdba7b89b09c6efb53d736",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Buddy",
+      "specie": "perro",
+      "birthDate": "2019-05-10",
+      "adopted": false,
+      "owner": "62fdba7b89b09c6efb53d737",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Bella",
+      "specie": "perro",
+      "birthDate": "2020-07-16",
+      "adopted": true,
+      "owner": "62fdba7b89b09c6efb53d738",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Buddy",
+      "specie": "perro",
+      "birthDate": "2021-04-20",
+      "adopted": false,
+      "owner": "62fdba7b89b09c6efb53d739",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Toby",
+      "specie": "perro",
+      "birthDate": "2022-02-28",
+      "adopted": true,
+      "owner": "62fdba7b89b09c6efb53d73a",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Riley",
+      "specie": "perro",
+      "birthDate": "2021-03-14",
+      "adopted": true,
+      "owner": "62fdba7b89b09c6efb53d73b",
+      "image": "https://loremflickr.com/150/150/perro"
+    },
+    {
+      "name": "Jax",
+      "specie": "perro",
+      "birthDate": "2023-02-02",
+      "adopted": false,
+      "owner": "62fdba7b89b09c6efb53d73c",
+      "image": "https://loremflickr.com/150/150/perro"
+    }
+  ]
+  
