@@ -15,6 +15,12 @@ const app = express();
 const PORT = process.env.PORT||8080;
 mongoose.set('strictQuery', false);
 const connection = mongoose.connect(process.env.MONGO_URL)
+  .then(() => {
+    console.log('Conectado a la base de datos MongoDB');
+  })
+  .catch((error) => {
+    console.error('Error al conectar a MongoDB:', error);
+  });
 
 
 app.use(express.json());
