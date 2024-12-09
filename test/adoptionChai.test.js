@@ -6,6 +6,7 @@ const expect = chai.expect;
 mongoose.connect(`mongodb+srv://gabyriveroadmi1:Coder1234@cluster0.rrpbegd.mongodb.net/backendIII?retryWrites=true&w=majority&appName=Cluster0`);
 
 describe("Test de Adopciones", function() {
+  this.timeout(10000);
   before(function() {
     this.adoptionDao = new Adoption();
   });
@@ -27,7 +28,7 @@ describe("Test de Adopciones", function() {
   });
 
   it("Obtener todas las adopciones", async function() {
-  
+    this.timeout(8000);
     const adopciones = await this.adoptionDao.get();
 
     expect(Array.isArray(adopciones)).to.be.true;
@@ -35,6 +36,7 @@ describe("Test de Adopciones", function() {
   });
 
   it("Buscar una adopción por ID", async function() {
+    this.timeout(8000);
     const idBusqueda = "673d1b49def86ac51961f0c2";  
   
     const adopcionBuscada = await this.adoptionDao.getBy({ _id: mongoose.Types.ObjectId(idBusqueda) });
@@ -47,7 +49,7 @@ describe("Test de Adopciones", function() {
 
 
   it("Crear una nueva adopción", async function() {
-   
+    this.timeout(8000);
     const nuevaAdopcion = await this.adoptionDao.save({
       owner: "62fdba7b89b09c6efb53d73a", 
       pet: "673d1a47def86ac51961f0bb",   
