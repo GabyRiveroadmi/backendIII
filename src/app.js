@@ -22,6 +22,7 @@ const connection = mongoose.connect(process.env.MONGO_URL)
     console.error('Error al conectar a MongoDB:', error);
   });
 
+
 app.use(express.json());
 app.use(cookieParser());
 
