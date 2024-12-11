@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubernetes
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: imagen1
+  template:
+    metadata:
+      labels:
+        app: imagen1
+    spec:
+      containers:
+      - name: imagen1
+        image: griverodocker/imagen1:latest
+        ports:
+        - containerPort: 8080
+        env:  # Aquí se define el bloque env
+        - name: MONGO_URL
+          value: "mongodb+srv://gabyriveroadmi1:Coder1234@cluster0.rrpbegd.mongodb.net/backendIII?retryWrites=true&w=majority&appName=Cluster0"
+        - name: PORT
+          value: "8080"
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mi-aplicacion-svc
+spec:
+  selector:
+    app: imagen1
+  ports:
+    - protocol: TCP
+      port: 80  
+      targetPort: 8080
+  type: LoadBalancer
