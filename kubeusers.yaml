@@ -17,7 +17,7 @@ spec:
         image: griverodocker/imagen1:latest
         ports:
         - containerPort: 8080
-        env:  # Aquí se define el bloque env
+        env: 
         - name: MONGO_URL
           value: "mongodb+srv://gabyriveroadmi1:Coder1234@cluster0.rrpbegd.mongodb.net/backendIII?retryWrites=true&w=majority&appName=Cluster0"
         - name: PORT
