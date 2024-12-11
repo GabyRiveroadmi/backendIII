@@ -1,5 +1,8 @@
 {
+<<<<<<< HEAD
   "name": "blackendiii",
+=======
+  
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -21,7 +24,10 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^6.7.5",
     "multer": "^1.4.5-lts.1",
+<<<<<<< HEAD
     "punycode": "^2.3.1",
+=======
+>>>>>>> 03d7a40e30171981fbc135e845629cb1ac5bcf15
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",
     "typescript": "^5.6.3",
